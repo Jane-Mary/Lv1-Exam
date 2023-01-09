@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+    background-color: lightgrey;
+}
+h5{
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(7, 129, 129);
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif; ;
+}
+.loader{
+    border: 16px solid teal ;
+    border-top: 16px solid orange;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    animation:spin  3S linear infinite;
+    margin-left:590px ;
+}
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
