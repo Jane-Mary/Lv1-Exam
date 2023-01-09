@@ -41,6 +41,6 @@ input[type="submit"]{
     background-color: rgb(233, 155, 11);
     color:teal;
 }
-input[type="button"]:hover{
+input[type="submit"]:hover{
     color: white;
 }
